@@ -52,6 +52,7 @@ public:
 	FGameplayTag Damage_Physical;
 
 	FGameplayTag Abilities_Attack;
+	FGameplayTag Abilities_Summon;
 
 	FGameplayTag CombatSocket_Weapon;
 	FGameplayTag CombatSocket_RightHand;
