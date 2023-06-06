@@ -30,6 +30,8 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
 	void OnHit();
 	virtual void Destroyed() override;
 
