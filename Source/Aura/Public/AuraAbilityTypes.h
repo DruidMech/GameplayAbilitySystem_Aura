@@ -1,7 +1,6 @@
 #pragma once
 
 #include "GameplayEffectTypes.h"
-#include "../../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.29.30133/INCLUDE/stdbool.h"
 #include "AuraAbilityTypes.generated.h"
 
 class UGameplayEffect;
