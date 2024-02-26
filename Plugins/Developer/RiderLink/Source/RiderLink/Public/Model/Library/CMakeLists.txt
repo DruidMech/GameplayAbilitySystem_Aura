@@ -1,0 +1,56 @@
+cmake_minimum_required(VERSION 3.7)
+add_library(UE4Library STATIC 
+instantiations_UE4Library.h
+instantiations_UE4Library.cpp
+UE4Library/StringRange.Generated.cpp
+UE4Library/StringRange.Generated.h
+UE4Library/PlayState.Generated.cpp
+UE4Library/PlayState.Generated.h
+UE4Library/RequestResultBase.Generated.cpp
+UE4Library/RequestResultBase.Generated.h
+UE4Library/RequestSucceed.Generated.cpp
+UE4Library/RequestSucceed.Generated.h
+UE4Library/RequestFailed.Generated.cpp
+UE4Library/RequestFailed.Generated.h
+UE4Library/LogMessageInfo.Generated.cpp
+UE4Library/LogMessageInfo.Generated.h
+UE4Library/UnrealLogEvent.Generated.cpp
+UE4Library/UnrealLogEvent.Generated.h
+UE4Library/UClass.Generated.cpp
+UE4Library/UClass.Generated.h
+UE4Library/BlueprintFunction.Generated.cpp
+UE4Library/BlueprintFunction.Generated.h
+UE4Library/ScriptCallStackFrame.Generated.cpp
+UE4Library/ScriptCallStackFrame.Generated.h
+UE4Library/IScriptCallStack.Generated.cpp
+UE4Library/IScriptCallStack.Generated.h
+UE4Library/EmptyScriptCallStack.Generated.cpp
+UE4Library/EmptyScriptCallStack.Generated.h
+UE4Library/ScriptCallStack.Generated.cpp
+UE4Library/ScriptCallStack.Generated.h
+UE4Library/UnableToDisplayScriptCallStack.Generated.cpp
+UE4Library/UnableToDisplayScriptCallStack.Generated.h
+UE4Library/IScriptMsg.Generated.cpp
+UE4Library/IScriptMsg.Generated.h
+UE4Library/ScriptMsgException.Generated.cpp
+UE4Library/ScriptMsgException.Generated.h
+UE4Library/ScriptMsgCallStack.Generated.cpp
+UE4Library/ScriptMsgCallStack.Generated.h
+UE4Library/BlueprintHighlighter.Generated.cpp
+UE4Library/BlueprintHighlighter.Generated.h
+UE4Library/BlueprintReference.Generated.cpp
+UE4Library/BlueprintReference.Generated.h
+UE4Library/ConnectionInfo.Generated.cpp
+UE4Library/ConnectionInfo.Generated.h
+UE4Library/NotificationType.Generated.cpp
+UE4Library/NotificationType.Generated.h
+UE4Library/UE4Library.Generated.cpp
+UE4Library/UE4Library.Generated.h
+UE4Library/RequestResultBase_Unknown.Generated.cpp
+UE4Library/RequestResultBase_Unknown.Generated.h
+UE4Library/IScriptCallStack_Unknown.Generated.cpp
+UE4Library/IScriptCallStack_Unknown.Generated.h
+UE4Library/IScriptMsg_Unknown.Generated.cpp
+UE4Library/IScriptMsg_Unknown.Generated.h)
+target_include_directories(UE4Library PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(UE4Library PUBLIC rd_framework_cpp)
